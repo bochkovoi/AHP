@@ -30,6 +30,5 @@ class ChangeCriteriaWindow( ChangeVisObject ):
         if self.is_good_name():
             super().save()
             self.exit()
-            self.main_obj.vis()
         else:
             pass
